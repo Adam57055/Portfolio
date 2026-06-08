@@ -12,71 +12,71 @@ body{
     color: white;
 }
 
-.portfolio{
-    font-size: 60px;
-    color: lightskyblue;
-}
-
-.content{
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 48px;
     min-height: 100vh;
+    padding: 24px;
+    text-align: center;
 }
 
-.projects{
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.portfolio {
+    font-size: 14px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: lightskyblue;
+}
+
+.name {
+    font-size: clamp(2.5rem, 8vw, 3.75rem);
+    line-height: 1.1;
+}
+
+.title {
+    font-size: 1.125rem;
+    color: #a0aec0;
+}
+
+.nav-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 180px));
+    gap: 16px;
+    width: 100%;
+    max-width: 380px;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: lightgreen;
     color: white;
-    padding: 25px 30px;
+    padding: 16px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: 0.2s ease-in;
+    transition: background-color 0.2s ease-in, transform 0.2s ease-in;
     text-decoration: none;
+    font-size: 0.95rem;
 }
 
-.skills{
-    background-color: lightgreen;
-    color: lightcoral;
-    padding: 25px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.2s ease-in;
-    text-decoration: none;
-}
-
-.education{
-    background-color: lightgreen;
-    color: white;
-    padding: 25px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.2s ease-in;
-    text-decoration: none;
-}
-
-.contact{
-    background-color: lightgreen;
-    color: white;
-    padding: 25px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.2s ease-in;
-    text-decoration: none;
-}
-
-.projects:hover{
+.nav-btn:hover {
     background-color: lightskyblue;
-    transform: scale(1.05);
+    transform: translateY(-2px);
 }
 
-.projects:active{
-    transform: scale(0.98);
+.nav-btn:active {
+    transform: translateY(0);
     transition-duration: 0.08s;
 }
 
