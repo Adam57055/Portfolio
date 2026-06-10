@@ -7,3 +7,6 @@ I coded a simple portfolio that contains a home page showcasing buttons directin
 
 I learned more about CSS styling through the use of text animations. I learned that errors can be made constantly and with consistent running of the code, there can be none left.
 
+## Problems I Faced
+
+I had trouble initially witb design details. 
