@@ -24,3 +24,21 @@ body{
 .text{
     color: lightsalmon;
 }
+
+.data-validation{
+    background-color: lightpink;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.data-validation:active{
+    transform: scale(0.97);
+}
+
+.data-validation:hover{
+    transform: scale(1.05);
+}
