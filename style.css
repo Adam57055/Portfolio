@@ -128,3 +128,11 @@ body{
     transition-duration: 0.08s;
 }
 
+.projects:active{
+    transform: scale(0.98);
+}
+
+.projects:hover{
+    transform: scale(1.05);
+}
+
