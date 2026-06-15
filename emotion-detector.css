@@ -1,0 +1,50 @@
+@import url('');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aldrich', sans-serif;
+}
+
+body{
+    background: #0f1117;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+.header{
+    font-size: 50px;
+    color: lightsalmon;
+}
+
+.text{
+    font-size: 30px;
+}
+
+.project{
+    background-color: lightgreen;
+    color: black;
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.project:active{
+    transform: scale(0.97);
+}
+
+.project:hover{
+    transform: scale(1.03);
+}
+
