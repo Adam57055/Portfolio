@@ -83,12 +83,12 @@ body{
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    transition: 0.2 ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .emotion:active{
-    transform: scale(0.98);
-    transition-duration: 0.08s;
+    transform: scale(0.97);
+    transition-duration: 0.07s;
 }
 
 .emotion:hover{
