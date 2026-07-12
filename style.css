@@ -86,18 +86,6 @@ body{
     background-color: lightgreen;
 }
 
-.projects,.education,
-.contact,.skills:hover {
-    background-color: lightskyblue;
-    transform: translateY(-2px);
-}
-
-.projects,.education,
-.contact,.skills:active {
-    transform: translateY(0);
-    transition-duration: 0.08s;
-}
-
 .skills:hover{
     background-color: lightskyblue;
     transform: scale(1.05);
