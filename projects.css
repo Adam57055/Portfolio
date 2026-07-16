@@ -74,23 +74,3 @@ body{
 .data-validation:hover{
     transform: scale(1.03);
 }
-
-.emotion{
-    background-color: lightsalmon;
-    color: black;
-    padding: 20px 25px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: 0.2s ease-in-out;
-}
-
-.emotion:active{
-    transform: scale(0.97);
-    transition-duration: 0.07s;
-}
-
-.emotion:hover{
-    transform: scale(1.03);
-}
