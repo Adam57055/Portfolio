@@ -17,8 +17,15 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     min-height: 100vh;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 
 .school{
@@ -51,3 +58,7 @@ body{
     color: lightsalmon;
 }
 
+.class-rank{
+    font-size: 20px;
+    color: lightgreen;
+}

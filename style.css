@@ -79,7 +79,7 @@ body{
 }
 
 .skills{
-    background-color: lightskyblue;
+    background-color: lightseagreen;
 }
 
 .contact{
@@ -122,5 +122,6 @@ body{
 
 .projects:hover{
     transform: scale(1.05);
+    background-color: lightskyblue;
 }
 
