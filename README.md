@@ -10,4 +10,4 @@ I learned more about CSS styling through the use of text animations. I learned t
 
 ## Problems I Faced
 
-I had trouble initially with design details. 
+I would encounter various issues when it came to viewing my code. There would mostly be no edits made even if I had written code. Mainly, this is due to a small but fundamental error of forgetting an end bracket or semicolon.
