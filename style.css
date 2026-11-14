@@ -56,7 +56,7 @@ body{
 }
 
 .projects,.education,
-.skills,.contact {
+.skills,.contact, .startup {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,6 +84,20 @@ body{
 
 .contact{
     background-color: lightgreen;
+}
+
+.startup{
+    background-color: lightblue;
+}
+
+.skills:hover{
+    background-color: lightsalmon;
+    transform: scale(1.05);
+}
+
+.skills:active{
+    transform: scale(0.98);
+    transition-duration: 0.08s;
 }
 
 .skills:hover{
@@ -125,3 +139,11 @@ body{
     background-color: lightskyblue;
 }
 
+.projects:active{
+    transform: scale(0.98);
+}
+
+.projects:hover{
+    transform: scale(1.05);
+    background-color: lightgreen;
+}
